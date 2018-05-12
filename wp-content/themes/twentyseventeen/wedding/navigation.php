@@ -15,7 +15,6 @@
                 <li><a href="#about" class="page-scroll">About us</a></li>
                 <li><a href="#love-story" class="page-scroll">Love story</a></li>
                 <li><a href="#gallery" class="page-scroll">Gallery</a></li>
-                <li><a href="#gifts-registry" class="page-scroll">Gifts</a></li>
                 <li><a href="#schedule" class="page-scroll">Schedule</a></li>
                 <li><a href="#location" class="page-scroll">Location</a></li>
             </ul>
