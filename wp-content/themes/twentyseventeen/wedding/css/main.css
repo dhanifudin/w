@@ -80,10 +80,10 @@ section {
 }
 .btn-pink {
 	border-radius: 2px !important;
-	background: #e06175;
+	background: #b99c6b;
 	border-radius: 40px;
 	padding: 8px 24px;
-	border: 1px solid #e06175;
+	border: 1px solid #b99c6b;
 	color: #fff !important;
 }
 .mt10 {
@@ -176,7 +176,7 @@ section {
 }
 /* Colors */
 .pink-color {
-	background: #e06175 !important;
+	background: #b99c6b !important;
 }
 .blue-color {
 	background: #6fc7b6 !important;
@@ -378,10 +378,10 @@ nav.navbar.navbar-default:after {
 }
 .navbar-default .navbar-nav .open > a, .navbar-default .navbar-nav .open > a:focus, .navbar-default .navbar-nav .open > a:hover {
 	background: none;
-	color: #e06175;
+	color: #b99c6b;
 }
 .navbar-default .navbar-nav .open .dropdown-menu {
-	background: #e06175;
+	background: #b99c6b;
 	font-size: 1.125em;
 }
 .navbar-default .navbar-nav .open .dropdown-menu li {
@@ -447,7 +447,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li:after {
 	content: "";
 	display: block;
 	position: absolute;
-	background-color: #fb8b8e;
+	background-color: #e4e4d7;
 	width: 1px;
 	height: 30px;
 	top: 14px;
@@ -921,7 +921,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 }
 .love-story .timeline-vertical .timeline-item-content h3 a:hover {
 	text-decoration: none;
-	color: #e06175;
+	color: #b99c6b;
 }
 .love-story .timeline-vertical .timeline-item-content .timeline-item-readmore {
 	border: 1px solid #000;
@@ -932,8 +932,8 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 	color: #000;
 }
 .love-story .timeline-vertical .timeline-item-content .timeline-item-readmore:hover {
-	border-color: #e06175;
-	color: #e06175;
+	border-color: #b99c6b;
+	color: #b99c6b;
 	text-decoration: none;
 }
 .love-story .timeline-vertical .timeline-item-date {
@@ -1485,7 +1485,7 @@ nav.navbar.navbar-default.pink-color .navbar-nav li a:hover:after {
 .gifts-registry.gr-img-block a:hover img {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
-	border: 3px solid #e06175;
+	border: 3px solid #b99c6b;
 }
 .gifts-registry.gr-border-none a img {
 	border: none;
@@ -1667,7 +1667,7 @@ footer p {
 }
 .theme-flowers .about-us h2 span {
 	font-family: "Playfair Display", serif;
-	color: #e55c72;
+	color: #855723;
 }
 .theme-flowers .about-us h2:after {
 	content: "";
@@ -1685,7 +1685,7 @@ footer p {
 	padding-bottom: 20px;
 }
 .theme-flowers .about-us h3 span {
-	color: #e6667a;
+	color: #855723;
 }
 .theme-flowers .about-us h4 {
 	font-family: "lavanderia";
@@ -1895,7 +1895,7 @@ footer p {
 	font-size: 1em;
 }
 .theme-flowers footer p {
-	color: #ffbbc6;
+	color: #ffffff;
 }
 /* 5. Theme color---------------------------------------------------------------*/
 .theme-color {
@@ -2244,7 +2244,7 @@ footer p {
 	border: none;
 }
 .theme-color select option {
-	background: #e06175;
+	background: #b99c6b;
 }
 .theme-color .select-wrap:before {
 	background-color: #a9ddd3;
@@ -2370,7 +2370,7 @@ footer p {
 }
 .blog .article-date {
 	text-align: center;
-	background: #e06175;
+	background: #b99c6b;
 	display: inline-block;
 	padding: 10px 15px;
 	color: #FFF;
@@ -2480,7 +2480,7 @@ footer p {
 	padding: 4px 8px;
 }
 .single-post .post-comments h4 .comment-reply {
-	color: #e06175;
+	color: #b99c6b;
 	font-size: 0.75em;
 	padding-left: 10px;
 }
