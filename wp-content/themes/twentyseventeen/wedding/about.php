@@ -18,7 +18,7 @@
             </div>
             <div class="col-sm-3 text-center">
                 <h3>Subhi About Ulfi</h3>
-                <p>A little girl with dreams that become a woman with vision. A love of my life</p>
+                <p>A little girl with dreams becomes a woman with vision. A love of my life</p>
             </div>
             <div class="clearfix"></div>
         </div>
