@@ -114,7 +114,7 @@ function initializeClock(id, endtime) {
 	var timeinterval = setInterval(updateClock, 1000);
 }
 // set your wedding date here
-var deadline = 'December 17 2017 17:30:00 GMT+0300';
+var deadline = 'June 24 2018 09:00:00 GMT+0700';
 if (countdown){
 	initializeClock('timer', deadline);
 }
@@ -226,14 +226,14 @@ $('.select-wrap').on('click', 'select', function() {
 var map;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map_canvas'), {
-		center: {lat: 40.89, lng: -73.98},
-		zoom: 13,
+		center: {lat: -7.0971902, lng: 107.4025394},
+		zoom: 10,
 		scrollwheel: false,
 		mapTypeControl: false
 	});
   var image = templateUrl + '/wedding/img/point.png';
 	var beachMarker = new google.maps.Marker({
-		position: {lat: 40.89, lng: -73.98},
+		position: {lat: -7.0971902, lng: 107.4025394},
 		map: map,
 		icon: image
 	});
