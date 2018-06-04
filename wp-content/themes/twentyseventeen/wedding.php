@@ -9,7 +9,7 @@ include('wedding/countdown.php');
 include('wedding/events.php');
 // include('wedding/bridesmaid-groomsman.php');
 // include('wedding/gallery.php');
-// include('wedding/location.php');
+include('wedding/location.php');
 include('wedding/map.php');
 include('wedding/footer.php');
 include('wedding/foot.php');
