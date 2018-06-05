@@ -1,78 +1,79 @@
-		<!-- Bridesmaid and Groomsman -->
-		<section class="bridesmaid-groomsman people text-center">
-			<div class="container">
-				<h2 class="">Bridesmaid & Groomsman</h2>
-				<div class="devider">
-                    <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/devider-flower.png" alt="devider">
-				</div>
-				<p class="intro-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, doloribus ab. Aliquid incidunt quibusdam aut nisi dolores</p>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="photo-wrap">
-							<div class="bride-photo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/bridesmaid.png" alt="bridesmaid">
-							</div>
-							<div class="bride-photo-flowers"></div>
-						</div>
-						<h3 class="name">Nina Matvienko</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-						<!-- Social icons -->
-						<ul class="social-icons si-circle si-orange">
-							<li>
-								<a href="#" title="Facebook">
-									<i class="fa fa-facebook fa-lg"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" title="Google">
-									<i class="fa fa-google fa-lg"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" title="Instagram">
-									<i class="fa fa-instagram fa-lg"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" title="Twitter">
-									<i class="fa fa-twitter fa-lg"></i>
-								</a>
-							</li>
-						</ul> <!-- /Social icons -->
-					</div>
-					<div class="col-sm-6">
-						<div class="photo-wrap">
-							<div class="groom-photo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/groomsman.png" alt="groomsman">
-							</div>
-							<div class="groom-photo-flowers"></div>
-						</div>
-						<h3 class="name">Vladislav Ionov</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-						<!-- Social icons -->
-						<ul class="social-icons si-circle si-orange">
-							<li>
-								<a href="#" title="Facebook">
-									<i class="fa fa-facebook fa-lg"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" title="Google">
-									<i class="fa fa-google fa-lg"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" title="Instagram">
-									<i class="fa fa-instagram fa-lg"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" title="Twitter">
-									<i class="fa fa-twitter fa-lg"></i>
-								</a>
-							</li>
-						</ul> <!-- /Social icons -->
-					</div>
-				</div>
-			</div>
-		</section>
+<!-- Bridesmaid and Groomsman -->
+<section class="bridesmaid-groomsman people text-center">
+    <div class="container">
+        <h2 class="">Bridesmaid & Groomsman</h2>
+        <div class="devider">
+            <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/devider-flower.png" alt="devider">
+        </div>
+        <p class="intro-text text-center">
+        </p>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="photo-wrap">
+                    <div class="bride-photo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/bridesmaid.png" alt="bridesmaid">
+                    </div>
+                    <div class="bride-photo-flowers"></div>
+                </div>
+                <h3 class="name">Ulfi U'rfillah</h3>
+                <p></p>
+                <!-- Social icons -->
+                <ul class="social-icons si-circle si-orange">
+                    <li>
+                        <a href="https://facebook.com/Ulfillah" title="Facebook" target="_blank">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Google" target="_blank">
+                            <i class="fa fa-google fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/ulfillah" title="Instagram" target="_blank">
+                            <i class="fa fa-instagram fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Twitter" target="_blank">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                </ul> <!-- /Social icons -->
+            </div>
+            <div class="col-sm-6">
+                <div class="photo-wrap">
+                    <div class="groom-photo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/groomsman.png" alt="groomsman">
+                    </div>
+                    <div class="groom-photo-flowers"></div>
+                </div>
+                <h3 class="name">Dian Hanifudin Subhi</h3>
+                <p></p>
+                <!-- Social icons -->
+                <ul class="social-icons si-circle si-orange">
+                    <li>
+                        <a href="https://facebook.com/dhanifudin" title="Facebook" target="_blank">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://google.com/+dhanifudin" title="Google" target="_blank">
+                            <i class="fa fa-google fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/dhanifudin" title="Instagram" target="_blank">
+                            <i class="fa fa-instagram fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/dhanifudin" title="Twitter" target="_blank">
+                            <i class="fa fa-github fa-lg"></i>
+                        </a>
+                    </li>
+                </ul> <!-- /Social icons -->
+            </div>
+        </div>
+    </div>
+</section>
