@@ -24,21 +24,21 @@
                             <i class="fa fa-facebook fa-lg"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#" title="Google" target="_blank">
-                            <i class="fa fa-google fa-lg"></i>
-                        </a>
-                    </li>
+                    <!-- <li> -->
+                    <!--     <a href="#" title="Google" target="_blank"> -->
+                    <!--         <i class="fa fa-google fa-lg"></i> -->
+                    <!--     </a> -->
+                    <!-- </li> -->
                     <li>
                         <a href="https://instagram.com/ulfillah" title="Instagram" target="_blank">
                             <i class="fa fa-instagram fa-lg"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#" title="Twitter" target="_blank">
-                            <i class="fa fa-twitter fa-lg"></i>
-                        </a>
-                    </li>
+                    <!-- <li> -->
+                    <!--     <a href="#" title="Twitter" target="_blank"> -->
+                    <!--         <i class="fa fa-twitter fa-lg"></i> -->
+                    <!--     </a> -->
+                    <!-- </li> -->
                 </ul> <!-- /Social icons -->
             </div>
             <div class="col-sm-6">
@@ -68,7 +68,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/dhanifudin" title="Twitter" target="_blank">
+                        <a href="https://github.com/dhanifudin" title="Github" target="_blank">
                             <i class="fa fa-github fa-lg"></i>
                         </a>
                     </li>
