@@ -11,7 +11,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#home" class="page-scroll">Home</a></li>
+                <li><a href="/" class="page-scroll">Home</a></li>
+                <li><a href="#wedding" class="page-scroll">Wedding</a></li>
                 <li><a href="#about" class="page-scroll">About us</a></li>
                 <!-- <li><a href="#love-story" class="page-scroll">Love story</a></li> -->
                 <!-- <li><a href="#gallery" class="page-scroll">Gallery</a></li> -->
@@ -34,7 +35,8 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
             <ul class="nav navbar-nav">
-                <li><a href="#home" class="page-scroll">Home</a></li>
+                <li><a href="/" class="page-scroll">Home</a></li>
+                <li><a href="#wedding" class="page-scroll">Wedding</a></li>
                 <li><a href="#about" class="page-scroll">About us</a></li>
                 <!-- <li><a href="#love-story" class="page-scroll">Love story</a></li> -->
                 <!-- <li><a href="#gallery" class="page-scroll">Gallery</a></li> -->

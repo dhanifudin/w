@@ -14,7 +14,7 @@
         <!-- Font awesome -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/wedding/css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
-    <body id="home" class="theme-flowers">
+    <body id="wedding" class="theme-flowers">
     <script>
     window.fbAsyncInit = function() {
         FB.init({
