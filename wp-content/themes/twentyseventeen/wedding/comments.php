@@ -1,5 +1,9 @@
 <section id="guestbook">
-	<div class="container">
-		<div class="fb-comments" data-href="http://wedding.dhanifudin.com/?page_id=2" data-numposts="10" data-width="100%"></div>
-	</div>
+    <div class="container">
+        <h2 class="text-center">Guest Book</h2>
+        <div class="devider">
+            <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/devider-flower.png" alt="devider">
+        </div>
+        <div class="fb-comments" data-href="https://ulfillah.com/wedding" data-numposts="10" data-width="100%"></div>
+    </div>
 </section>

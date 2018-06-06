@@ -1,7 +1,7 @@
 <!-- Bridesmaid and Groomsman -->
 <section class="bridesmaid-groomsman people text-center">
     <div class="container">
-        <h2 class="">Bridesmaid & Groomsman</h2>
+        <h2 class="text-center">Bride & Groom</h2>
         <div class="devider">
             <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/devider-flower.png" alt="devider">
         </div>
