@@ -16,7 +16,7 @@
                     <div class="bride-photo-flowers"></div>
                 </div>
                 <h3 class="name">Ulfi U'rfillah</h3>
-                <p></p>
+                <p>Sundanese. Adventurer. A princess with seven dwarfs. Graduate of family sciences trapped in technology sciences.</p>
                 <!-- Social icons -->
                 <ul class="social-icons si-circle si-orange">
                     <li>
@@ -49,7 +49,7 @@
                     <div class="groom-photo-flowers"></div>
                 </div>
                 <h3 class="name">Dian Hanifudin Subhi</h3>
-                <p></p>
+                <p>An introvert. A lecturer that speaks with code.</p>
                 <!-- Social icons -->
                 <ul class="social-icons si-circle si-orange">
                     <li>

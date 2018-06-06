@@ -9,7 +9,7 @@
         <div id="about" class="row groom-bride">
             <div class="col-sm-3 text-center">
                 <h3>Ulfi About Subhi</h3>
-                <p></p>
+                <p>Someone to share my day to day adventure with happiness. A place to plant my root and grow into beautiful flower.</p>
             </div>
             <div class="col-sm-6 big-photo text-center">
             <!-- <img class="flower-frame-top" src="<?php echo get_template_directory_uri(); ?>/wedding/img/flowers-frame.png" alt=""> -->
