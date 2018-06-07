@@ -1,4 +1,4 @@
-<section id="guestbook">
+<section id="guestnote">
     <div class="container">
         <h2 class="text-center">Guest Book</h2>
         <div class="devider">

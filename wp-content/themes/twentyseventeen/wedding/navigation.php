@@ -17,7 +17,7 @@
                 <!-- <li><a href="#love-story" class="page-scroll">Love story</a></li> -->
                 <!-- <li><a href="#gallery" class="page-scroll">Gallery</a></li> -->
                 <li><a href="#schedule" class="page-scroll">Schedule</a></li>
-                <li><a href="#guestbook" class="page-scroll">Guest Book</a></li>
+                <li><a href="#guestnote" class="page-scroll">Guest Note</a></li>
                 <li><a href="#location" class="page-scroll">Location</a></li>
             </ul>
         </div>
@@ -41,7 +41,7 @@
                 <!-- <li><a href="#love-story" class="page-scroll">Love story</a></li> -->
                 <!-- <li><a href="#gallery" class="page-scroll">Gallery</a></li> -->
                 <li><a href="#schedule" class="page-scroll">Schedule</a></li>
-                <li><a href="#guestbook" class="page-scroll">Guest Book</a></li>
+                <li><a href="#guestnote" class="page-scroll">Guest Note</a></li>
                 <li><a href="#location" class="page-scroll">Location</a></li>
             </ul>
         </div>
