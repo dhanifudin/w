@@ -237,7 +237,7 @@ function initMap() {
     map: map,
     icon: image
   });
-  beachMarker.addListener('click', function() {
+  beachMarker.addListener('mousedown', function() {
     window.location.href = 'https://maps.google.com/maps?q=-7.0712469,107.4660832';
   });
 }
