@@ -49,7 +49,7 @@
                     <div class="groom-photo-flowers"></div>
                 </div>
                 <h3 class="name">Dian Hanifudin Subhi</h3>
-                <p>An introvert. A lecturer that speaks with code.</p>
+                <p>Javanese. An introvert. A lecturer that speaks using code.</p>
                 <!-- Social icons -->
                 <ul class="social-icons si-circle si-orange">
                     <li>

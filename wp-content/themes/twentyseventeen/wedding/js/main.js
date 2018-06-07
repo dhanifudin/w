@@ -14,9 +14,6 @@ Table of Contents:
 5. Form
 6. Select arrow
 7. Map
-8. Gifts list
-9. Blog
-10. Youtube video BG
 
 /* 1. Loader
 ====================*/
@@ -225,112 +222,21 @@ $('.select-wrap').on('click', 'select', function() {
 =========================================*/
 var map;
 function initMap() {
+  var lat = -7.071170;
+  var lng = 107.468259;
   map = new google.maps.Map(document.getElementById('map_canvas'), {
-    center: {lat: -7.0712469, lng: 107.4660832},
+    center: {lat: lat, lng: lng},
     zoom: 10,
     scrollwheel: false,
     mapTypeControl: false
   });
   var image = templateUrl + '/wedding/img/point.png';
   var beachMarker = new google.maps.Marker({
-    position: {lat: -7.0712469, lng: 107.4660832},
+    position: {lat: lat, lng: lng},
     map: map,
     icon: image
   });
   beachMarker.addListener('mousedown', function() {
-    window.location.href = 'https://maps.google.com/maps?q=-7.0712469,107.4660832';
+    window.location.href = 'https://maps.google.com/maps?q=' + lat + ',' + lng;
   });
 }
-/* 8. Gifts list
-==========================================*/
-$(function () {
-  $('.list-group.checked-list-box .list-group-item').each(function () {
-    // Settings
-    var $widget = $(this),
-      $checkbox = $('<input type="checkbox" class="hidden" />'),
-      color = ($widget.data('color') ? $widget.data('color') : "primary"),
-      style = ($widget.data('style') == "button" ? "btn-" : "list-group-item-"),
-      settings = {
-        on: {
-          icon: 'glyphicon glyphicon-check'
-        },
-        off: {
-          icon: 'glyphicon glyphicon-unchecked'
-        }
-      };
-    $widget.css('cursor', 'pointer')
-    $widget.append($checkbox);
-    // Event Handlers
-    $widget.on('click', function () {
-      $checkbox.prop('checked', !$checkbox.is(':checked'));
-      $checkbox.triggerHandler('change');
-      updateDisplay();
-    });
-    $checkbox.on('change', function () {
-      updateDisplay();
-    });
-    // Actions
-    function updateDisplay() {
-      var isChecked = $checkbox.is(':checked');
-      // Set the button's state
-      $widget.data('state', (isChecked) ? "on" : "off");
-      // Set the button's icon
-      $widget.find('.state-icon')
-        .removeClass()
-        .addClass('state-icon ' + settings[$widget.data('state')].icon);
-      // Update the button's color
-      if (isChecked) {
-        $widget.addClass(style + color + ' active');
-      } else {
-        $widget.removeClass(style + color + ' active');
-      }
-    }
-    // Initialization
-    function init() {
-      if ($widget.data('checked') == true) {
-        $checkbox.prop('checked', !$checkbox.is(':checked'));
-      }
-      updateDisplay();
-      // Inject the icon if applicable
-      if ($widget.find('.state-icon').length == 0) {
-        $widget.prepend('<span class="state-icon ' + settings[$widget.data('state')].icon + '"></span>');
-      }
-    }
-    init();
-  });
-});
-
-/* 9. Blog
-==========================================*/
-
-var blog = document.querySelector('.blog');
-
-if (blog) {
-  jQuery(".article-thumb").each(function(){
-    var articleImg = $(this).find('img');
-    $(this).css({
-      'background-image': 'url('+articleImg.attr('src')+')'
-    });
-  });
-  jQuery("p.entry").each(function(){
-    var review = jQuery(this).html();
-    if( review.length > 200)
-    {
-      review = review.substring(0, 200);
-      jQuery(this).html( review + '<span class="read_more">...</span>' );
-    }
-  });
-}
-/* 10. Youtube video BG
-==========================================*/
-$(window).on('load', function() {
-  if ($('div').is($('#background-video'))) {
-    $('#background-video').YTPlayer({
-      fitToBackground: true,
-      videoId: 'fKiFfHkDAKg',
-      playerVars: {
-        start: 12
-      }
-    });
-  }
-});
