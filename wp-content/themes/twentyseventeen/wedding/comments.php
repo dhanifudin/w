@@ -4,6 +4,7 @@
         <div class="devider">
             <img src="<?php echo get_template_directory_uri(); ?>/wedding/img/devider-flower.png" alt="devider">
         </div>
+        <p class="intro-text text-center">Send your love message to us.</p>
         <div class="fb-comments" data-href="https://ulfillah.com/wedding" data-numposts="10" data-width="100%"></div>
     </div>
 </section>
